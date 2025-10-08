@@ -34,7 +34,6 @@ public class PerformanceTracker {
     public void exportToCSV(String fileName, List<String> headers) {
         try (FileWriter writer = new FileWriter(fileName, true)) {
             if (headers != null) {
-                // Пишем заголовки, если они не написаны
                 writer.append(String.join(",", headers));
                 writer.append("\n");
             }
