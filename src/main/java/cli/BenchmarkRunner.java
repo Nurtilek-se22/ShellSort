@@ -2,7 +2,6 @@ package cli;
 
 import algorithms.ShellSort;
 import metrics.PerformanceTracker;
-
 import java.util.Arrays;
 
 public class BenchmarkRunner {
